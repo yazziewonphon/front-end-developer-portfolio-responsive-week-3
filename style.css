@@ -15,11 +15,9 @@ h3 {
   text-align: center;
   margin: 0;
 }
-
 h1 {
   font-size: 96px;
 }
-
 h2 {
   font-size: 48px;
 }
@@ -53,6 +51,9 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.contact-link:hover {
+  color: white;
+}
 
 .about-link {
   color: var(--primary-color);
@@ -71,6 +72,10 @@ p {
 
 .about-paragraphs p {
   margin: 10px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 .text-center {
   text-align: center !important;
@@ -97,4 +102,31 @@ p {
   color: white;
   padding: 20px 15px;
   text-decoration: none;
+}
+.primary-link:hover {
+  color: white;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .mb-3,
+  .mt-5,
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .img-fluid {
+    margin: 0 0 24px;
+  }
 }
